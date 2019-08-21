@@ -1,7 +1,7 @@
 # webpack
 
 - client
-npm run watch
+npm run build-dev
 
 - server
 npm start
