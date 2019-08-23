@@ -433,7 +433,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-$('h1').click(() => alert('você me clicou'));
+$("h1").click(() => alert("você me clicou"));
 
 const controller = new __WEBPACK_IMPORTED_MODULE_0__controllers_NegociacaoController_js__["a" /* NegociacaoController */]();
 const negociacao = new __WEBPACK_IMPORTED_MODULE_1__domain_index_js__["a" /* Negociacao */](new Date(), 1, 200);
@@ -448,7 +448,7 @@ const config = {
   body
 };
 
-fetch("http://localhost:3000/negociacoes", config).then(() => console.log("Dado enviado com sucesso"));
+fetch(`${"http://localhost:3000"}/negociacoes`, config).then(() => console.log("Dado enviado com sucesso"));
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
